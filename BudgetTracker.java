@@ -100,7 +100,7 @@ public class BudgetTracker {
     // Returns true if the user has gone over their budget
     public boolean isOverBudget() {
         // compare current spending to limit
-        return getTotalSpend() > budgetLimit;
+        return getTotalSpent() > budgetLimit;
     }
 
     // Prints total spent in each category (Food, Rent, etc.)

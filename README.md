@@ -13,8 +13,5 @@ When the program starts, users are presented with a menu of numbered options inc
 
 Categories are fully customizable by the user, which means they can enter whatever
 category they want for that certain expense and it will be saved (food, rent, etc).
-I used an ArrayList to store the transactions, HashMap to calculate totals by category, and Stack to implement the undo feature.
-
-This app includes algorithms such as looping for calculating spendings, searching expenses by category, and sorting expenses by amount (selection sort).
 
 This app's purpose it to build habits of financial responsibility for users!

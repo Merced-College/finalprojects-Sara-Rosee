@@ -98,9 +98,9 @@ public class Main {
                 case 7:
                     // Set monthly budget
                     System.out.print("Enter monthly budget limit: ");
-                    double limit = input.nextDouble();
-                    tracker.setBudgetLimit(limit);
-                    System.out.println("Monthly budget set to $" + limit);
+                    double budgetLimit = input.nextDouble();
+                    input.nextLine();
+                    tracker.setMonthlyBudget(budgetLimit);  
                     break;
 
                 case 8:

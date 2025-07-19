@@ -25,6 +25,8 @@ public class BudgetTracker {
     // Monthly budget limit
     private double budgetLimit;
 
+    private double monthlyBudget = 0;
+
     // Method initializing data structures, runs when we create a new
     // BudgetTracker object
     public BudgetTracker() {
@@ -95,6 +97,11 @@ public class BudgetTracker {
     // user sets a budget limit
     public void setBudgetLimit(double limit) {
         budgetLimit = limit;
+    }
+
+    public void setMonthlyBudget(double budget) {
+        this.monthlyBudget = budget;
+        System.out.println("Monthly budget set to $" + budget);
     }
 
     // Returns true if the user has gone over their budget
